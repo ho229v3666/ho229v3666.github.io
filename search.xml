@@ -4,5 +4,8 @@
     <title>Hello World</title>
     <url>/2020/02/27/hello-world/</url>
     <content><![CDATA[<center>这是我的第一篇博客，纪念这一天 2020/2/27。</center>]]></content>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
   </entry>
 </search>
