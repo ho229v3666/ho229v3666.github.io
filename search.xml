@@ -15,6 +15,7 @@
 <li><a href="#下载图片">下载图片</a></li>
 </ol>
 <hr>
+<a id="more"></a>
 <h3 id="获取网页HTML源码"><a href="#获取网页HTML源码" class="headerlink" title="获取网页HTML源码"></a>获取网页HTML源码</h3><ul>
 <li>先利用 <code>QNetworkRequest</code> 网络请求类构建请求，再利用 <code>QNetworkAccessManager</code> 发送网络请求。当网络请求被回复后，会发出一个 <code>void QNetworkAccessManager::finished(QNetworkReply *reply)</code> 的信号，所以我们把这个信号连接到槽 <code>replyFinished(QNetworkReply *)</code> 来处理这个信号。</li>
 </ul>
